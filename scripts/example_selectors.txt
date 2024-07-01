@@ -1,0 +1,1033 @@
+
+wash clothes:
+
+find('detergent')
+switchoff('faucet')
+find('soap')
+find('faucet')
+wash('soap')
+find('washer')
+switchoff('washingmachine')
+bleach('clothes')
+wash('clothes', 'washingmachine')
+find('dryer')
+detergent('clothes')
+walk('bathroom')
+find('clothes')
+putin('clothes', 'washingmachine')
+find('washingmachine')
+open('washingmachine')
+walk('kitchen')
+switchoff('clothes')
+grab('clothes')
+find('bleach')
+find('iron')
+find('water')
+walk('bedroom')
+wash('clothes')
+
+--------------------------
+
+
+put apple in fridge:
+
+switchoff('apple')
+grab('apple')
+walk('kitchen')
+open('apple')
+find('fridge')
+putin('apple', 'apple')
+open('fridge')
+putin('apple', 'fridge')
+open('fruit')
+putin('fruit', 'fruit')
+find('apple')
+
+--------------------------
+
+
+read book under table lamp:
+
+read('tablelamp', 'book')
+find('table lamp')
+read('tablelamp')
+open('tablelamp')
+open('book')
+find('book')
+close('tablelamp')
+grab('read')
+switchoff('table lamp')
+find('lamp')
+read('close' to 'book')
+read('book')
+find('tablelamp')
+putin('read', 'tablelamp')
+putin('book', 'tablelamp')
+close('book')
+putin('read', 'book')
+walk('table')
+switchoff('tablelamp')
+switchoff('lamp')
+open('table')
+read('book', 'tablelamp')
+walk('tablelamp')
+read('read')
+walk('kitchen')
+grab('book')
+
+--------------------------
+
+
+put clothes in closet:
+
+walk('closet')
+walk('kitchen')
+open('closet')
+grab('clothes')
+find('clothes')
+open('clothes')
+putin('clothes', 'closet')
+putin('clothes', 'clothes')
+
+--------------------------
+
+
+put papers in the folder:
+
+open('folder')
+putin('papers', 'folder')
+walk('kitchen')
+grab('papers')
+grab('paper')
+grab('folder')
+putin('paper', 'folder')
+find('paper')
+open('paper')
+open('papers')
+close('folder')
+find('papers')
+find('folder')
+
+--------------------------
+
+
+call a friend:
+
+putin('phone', 'table')
+call('friend', 'bye')
+call('a_friend', 'buddy', 'goodbye')
+call('a_friend')
+call('friend', 'hello')
+call('phone', 'bye')
+find('phone')
+call('dave')
+call('friend', 'goodbye')
+call('friend')
+grab('call')
+call('a_friend', 'buddy', 'hello')
+call('friends')
+call('a_friend', 'buddy', 'goodnight')
+call('friend', 'hi')
+call('joe')
+wait('phone')
+grab('phone')
+putin('phone', 'phone')
+call('a_friend', 'hello')
+get('friend's number')
+pickup('phone')
+call('a_friend', 'a_friend')
+call('phone')
+walk('kitchen')
+answer('phone')
+call('phone', 'hello')
+switchon('phone')
+call('phone', 'goodbye')
+switchoff('phone')
+
+--------------------------
+
+
+heat some pie:
+
+close('oven')
+switchon('oven')
+putin('pie', 'microwave')
+bake('pie')
+find('microwave')
+switchoff('oven')
+switchoff('microwave')
+find('oven')
+open('oven')
+putin('microwave pie for', 'microwave')
+putin('pie', 'oven')
+switchoff('pie')
+putin('heatpie', 'oven')
+find('pie')
+find('fan')
+grab('pie')
+switchoff('fan')
+walk('kitchen')
+
+--------------------------
+
+
+bring me some fruit:
+
+open('bowl')
+putin('fruit', 'basket')
+find('watermelon')
+open('fridge')
+grab('lemon')
+grab('orange')
+find('orange')
+basket('fruit', 'basket')
+find('banana')
+find('grape')
+find('basket')
+grab('banana')
+putin('melons', 'melons')
+find('strawberry')
+grab('fruit')
+find('melons')
+grab('apple')
+find('fridge')
+open('table')
+putin('fruit', 'bowl')
+find('lemon')
+open('basket')
+find('fruit')
+putin('banana', 'basket')
+putin('fruit', 'fridge')
+putin('fruit', 'table')
+find('table')
+switchoff('fridge')
+grab('strawberry')
+find('apple')
+putin('orange', 'basket')
+basket('fruit')
+walk('kitchen')
+grab('watermelon')
+close('basket')
+buy_fruit()
+grab('grape')
+putin('apple', 'basket')
+find('bowl')
+
+--------------------------
+
+
+sit on the bench:
+
+grab('remotecontrol')
+find('chair')
+find('bench')
+find('book')
+putin('knife', 'knife')
+putin('plate', 'plate')
+putin('chair', 'chair')
+grab('chair')
+switchoff('chair')
+find('knife')
+putin('bench', 'bench')
+find('lamp')
+sit('bench')
+putin('book', 'bench')
+close('book')
+sit_on_the_bench()
+switchoff('lamp')
+grab('plate')
+grab('knife')
+open('bench')
+find('plate')
+putin('chair', 'bench')
+switchoff('bench')
+walk('kitchen')
+grab('book')
+sit('bench', 'closed', 'open', 'closed', 'open', 'closed', 'open', 'closed', 'open', 'closed', 'open', 'closed', 'open', 'closed', 'open', 'closed', 'open')
+walk('bench')
+putin('remotecontrol', 'book')
+find('remotecontrol')
+sit('bench', 'closed', 'open', 'closed', 'open', 'closed', 'open', 'closed', 'open', 'closed', 'open', 'closed', 'open', 'closed', 'open', 'closed', 'open', 'closed', 'open', 'closed')
+sit_on('bench')
+
+--------------------------
+
+
+work on computer:
+
+get('desktopbackground')
+switchoff('mouse')
+switchon('mouse')
+find('speakers')
+close('computer')
+get('wallpaper')
+grab('keyboard')
+get('screen')
+find('switchon')
+walk('computer')
+find('printer')
+switchoff('powerbutton')
+find('mousepad')
+grab('mouse')
+putin('computer', 'computer')
+switchoff('keyboard')
+find('on')
+work_on_computer()
+find('computer')
+find('powerbutton')
+find('mouse')
+open('keyboard')
+get('background')
+get('sleepmode')
+switchoff('sleepmode')
+walk('kitchen')
+open('computer')
+move('mouse')
+putin('mouse', 'computer')
+get('desktop')
+find('monitor')
+find('power')
+find('keyboard')
+switchoff('computer')
+open('switchon')
+grab('computer')
+
+--------------------------
+
+
+put my slippers near the bed:
+
+find('shoes')
+open('bedroom')
+close('bed')
+open('slippers')
+find('bedroom')
+putin('shoes', 'bedroom')
+putin('slippers', 'bed')
+open('bed')
+switchoff('bed')
+putin('slipper', 'bed')
+close('bedroom')
+find('slippers')
+putin('slippers', 'bedroom')
+grab('slippers')
+walk('bedroom')
+switchoff('slippers')
+find('bed')
+grab('shoes')
+
+--------------------------
+
+
+take out the trash:
+
+grab('soapdispenser')
+find('dishwashingliquid')
+open('trashcan')
+find('soap')
+putin('garbagebag', 'garbagebag')
+putin('paper', 'paper')
+putin('washingsponge', 'washingsponge')
+switchoff('trashcan')
+find('washingsponge')
+grab('garbagebag')
+find('trashcan')
+putin('toiletpaper', 'trashcan')
+find('soapdispenser')
+grab('dishwashingliquid')
+find('sink')
+close('garbagecan')
+find('toiletpaper')
+putin('washingsponge', 'trashcan')
+open('paper')
+grab('toiletpaper')
+putin('garbagecan', 'garbagecan')
+open('garbagebag')
+putin('dishwashingliquid', 'sink')
+grab('soap')
+grab('paper')
+grab('paper towel')
+find('paper')
+putin('trashcan')
+grab('washingsponge')
+find('garbagecan')
+putin('trashcan', 'trashcan')
+putin('washingsponge', 'sink')
+walk('kitchen')
+putin('paper towel', 'trashcan')
+find('paper towel')
+open('garbagecan')
+close('trashcan')
+putin('dishwashingliquid', 'trashcan')
+movetrashcan('trashcan')
+find('garbagebag')
+putin('trash', 'garbagecan')
+putin('soapdispenser', 'soapdispenser')
+
+--------------------------
+
+
+open the curtains:
+
+turnleft('curtains')
+find('light')
+find('curtain')
+switchoff('curtain')
+open('bedroom')
+open('curtains')
+grab('curtains')
+close('window')
+grab('curtain')
+find('curtains')
+find('fan')
+grab('window')
+putin('fan', 'curtains')
+find('window')
+turnright('curtains')
+walk('kitchen')
+putin('curtains', 'curtains')
+walk('bedroom')
+
+--------------------------
+
+
+wash the frying pan:
+
+find('toaster')
+find('waterglass')
+find('gas')
+find('clotheswasher')
+find('light')
+putin('fryingpan', 'fryingpan')
+find('dishwashingliquid')
+switchon('oven')
+find('tv')
+find('timer')
+find('clothesdrier')
+find('microwave')
+find('clothessteamer vent fan')
+switchoff('oven')
+switchoff('microwave')
+find('stove')
+find('ovenfan')
+switchoff('coffeepot')
+find('oven')
+find('coffeepot')
+switchoff('clothessteamer vent fan light switch')
+find('burner')
+find('soapdispenser')
+find('clothessteamerbasketlidhandle')
+find('sink')
+find('clothessteamerbasketlid')
+find('clothessteamer vent fan light switch light')
+find('ovenlight')
+switchoff('gas')
+grab('dishwashingliquid')
+switchoff('stove')
+find('dishwasher')
+find('clothesdryer')
+find('stovefan')
+open('ovenlight')
+find('clothessteamer vent fan light switch')
+switchoff('ovenlight')
+putin('fryingpan', 'oven')
+find('clothesiron')
+find('clothessteamerbasket')
+find('clothessteamerbasketlidhandlehandle')
+find('fan')
+open('fryingpan')
+find('clothessteamer vent')
+find('clothessteamer vent fan light')
+switchoff('fan')
+putin('dishwashingliquid', 'fryingpan')
+walk('kitchen')
+find('clothessteamer')
+find('microwavelight')
+switchon('fan')
+find('water')
+putin('fryingpan', 'ovenlight')
+find('radio')
+find('fryingpan')
+switchoff('fryingpan')
+
+--------------------------
+
+
+bring my book to the sofa:
+
+grab('remotecontrol')
+open('book')
+find('tv')
+find('book')
+find('pillow')
+grab('table')
+putin('remotecontrol', 'sofa')
+putin('pillow', 'sofa')
+putin('book', 'sofa')
+close('book')
+putin('book', 'book')
+close('sofa')
+putin('table', 'table')
+find('table')
+grab('pillow')
+switchoff('tv')
+walk('kitchen')
+open('sofa')
+grab('book')
+walk('sofa')
+move('book', 'sofa')
+find('remotecontrol')
+putin('book', 'table')
+find('sofa')
+
+--------------------------
+
+
+wash the rug in washing machine:
+
+grab('rug')
+wash('rug')
+find('waterpump')
+find('dishwashingliquid')
+putin('rug', 'rug')
+find('faucet')
+switchoff('faucet')
+wash_the_rug_in_washing_machine()
+switchoff('washingmachine')
+grab('dishwashingliquid')
+find('sink')
+walk('washingmachine')
+open('rug')
+switchoff('rug')
+putin('dishwashingliquid', 'sink')
+find('detergentdispenser')
+switchon('washingmachine')
+find('clothes')
+putin('rug', 'washingmachine')
+find('washingmachine')
+open('washingmachine')
+walk('kitchen')
+find('rug')
+switchoff('clothes')
+wash('clothes')
+
+--------------------------
+
+
+put all the cutlery in the sink:
+
+putin('allthecutleryinthesink', 'sink')
+find('dishwashingliquid')
+switchoff('faucet')
+find('faucet')
+find('cutlery')
+putinallthecutlery()
+putin('allthe', 'sink')
+washallthecutlery()
+find('washingsponge')
+find('sink')
+grab('dishwashingliquid')
+grab('cutlery')
+grab ('washingsponge')
+putin 'washingsponge', 'washingsponge'
+switchon('faucet')
+find ('sink')
+putin('cutlery', 'sink')
+putin('dishwashingliquid', 'sink')
+putin('all the cutlery', 'sink')
+grab('washingsponge')
+open('sink')
+putin('all_the_cutlery', 'sink')
+grab('sink')
+putin('washingsponge', 'sink')
+putin ('washingsponge', 'sink')
+walk('kitchen')
+grab 'washingsponge'
+close('sink')
+wash_mug()
+putin('allthecutlery', 'sink')
+
+--------------------------
+
+
+throw away the lime:
+
+putin('washingsponge', 'sink')
+find('lime')
+walk('kitchen')
+find('dishwashingliquid')
+grab('dishwashingliquid')
+find('sink')
+close('garbagecan')
+putin('dishwashingliquid', 'sink')
+open('garbagecan')
+putin('lime', 'garbagecan')
+grab('lime')
+find('washingsponge')
+find('garbagecan')
+
+--------------------------
+
+
+put the wine glass in the kitchen cabinet:
+
+walk('kitchen')
+find('kitchencabinet')
+find('wineglass')
+grab('wineglass')
+putin('wineglass', 'kitchencabinet')
+open('kitchencabinet')
+close('kitchencabinet')
+
+--------------------------
+
+
+put the candle on the living room shelf:
+
+find('lamp')
+walk('kitchen')
+find('kitchencabinet')
+open('shelf')
+find('livingroom shelf')
+switchoff('lamp')
+open('livingroom shelf')
+grab('candle')
+putin('candle', 'livingroom shelf')
+putin('lamp', 'lamp')
+walk('livingroom')
+putin('candle', 'shelf')
+open('kitchencabinet')
+switchoff('candle')
+find('shelf')
+find('candle')
+close('kitchencabinet')
+
+--------------------------
+
+
+get my pants and shirt and place on the bed:
+
+find('soap')
+find('shoes')
+grab('shirt')
+grab('blanket')
+find('socks')
+find('shirt')
+putin('pants', 'bed')
+open('socks')
+putin('socks', 'socks')
+walk('toilet')
+grab('lamp')
+find('pants')
+get('shirt', 'pants')
+getmypants('pants', 'shirt', 'bed')
+open('shirt')
+switchoff('pants')
+putin('shirt', 'bedroom')
+grab('toiletpaper')
+get('pants', 'shirt')
+putin('pants', 'shirt')
+putin('shirt', 'shirt')
+grab('underwear')
+open('pants')
+walk('sink')
+grab('pants')
+walk('bathroom')
+grab('soap')
+putin('pants', 'pants')
+putin('shirt', 'bed')
+walk('shower')
+grab('pillow')
+switchoff('shirt')
+walk('kitchen')
+walk('tub')
+grab('socks')
+walk('bedroom')
+putin('shirt', 'pants')
+walk('showerhead')
+putin('pants', 'bedroom')
+switchoff('shoes')
+grab('shoes')
+
+--------------------------
+
+
+take off pictureframe:
+
+find('pictureframe')
+open('pictureframe')
+find('picture')
+walk('kitchen')
+putin('pictureframe', 'kitchencabinet')
+find('kitchencabinet')
+get('move')
+putin('picture', 'picture')
+grab('picture')
+close('pictureframe')
+open('kitchencabinet')
+grab('pictureframe')
+switchoff('pictureframe')
+putin('pictureframe', 'pictureframe')
+close('kitchencabinet')
+
+--------------------------
+
+
+bring an apple to the sofa:
+
+switchoff('apple')
+putin('apple', 'bedroom')
+find('livingroom', 'sofa')
+find('book')
+find('couch')
+bringin('apple', 'sofa')
+find('lampshade')
+open('livingroom', 'sofa')
+grab('table')
+open('kitchencabinet')
+putin('book', 'sofa')
+grab('apple')
+find('kitchencabinet')
+putin('apple', 'sofa')
+walk('livingroom')
+putin('apple', 'kitchencabinet')
+close('sofa')
+find('table')
+find('apple')
+walk('kitchen')
+open('sofa')
+grab('book')
+grab('lampshade')
+putin('apple', 'kitchen')
+putin('lampshade', 'sofa')
+putin('couch', 'livingroom')
+find('sofa')
+
+--------------------------
+
+
+bring my cellphone to the bed:
+
+switchoff('cellphone')
+open('bedroom')
+find('phone')
+bringin('cellphone', 'bed')
+putin('cellphone', 'bedroom')
+buy_phone(phone)
+open('bedroom door')
+find('bedroom')
+grab('phone')
+putin('phone', 'bedroom')
+switchoff('bed')
+open('bed')
+putin('cellphone', 'bed')
+close('bedroom')
+close('bedroom door')
+grab('cellphone')
+buy('cellphone')
+find('cellphone')
+walk('bedroom')
+find('bed')
+switchoff('phone')
+
+--------------------------
+
+
+put book back in the bookshelf:
+
+close('bookshelf')
+switchoff('book')
+grab('book')
+find('bookshelf')
+walk('bookshelf')
+find('book')
+open('bookshelf')
+putin('book', 'bookshelf')
+putin('bookshelf', 'bookshelf')
+
+--------------------------
+
+
+read book under table lamp:
+
+read('tablelamp', 'book')
+read('tablelamp')
+open('tablelamp')
+open('book')
+find('book')
+close('tablelamp')
+switchoff('table lamp')
+open('lamp')
+find('lamp')
+read('book', 'read')
+read('book')
+walk('bookshelf')
+find('tablelamp')
+putin('book', 'tablelamp')
+close('book')
+walk('table')
+switchoff('tablelamp')
+switchoff('lamp')
+read_book_under_table_lamp()
+walk('table lamp')
+read('book', 'tablelamp')
+walk('tablelamp')
+close('lamp')
+walk('kitchen')
+grab('book')
+find('bookshelf')
+walktowards('book')
+
+--------------------------
+
+
+listen to radio:
+
+switchon('radio')
+find('soap')
+find('tv')
+find('speakers')
+putin('radio', 'kitchencabinet')
+close('kitchencabinet')
+open('kitchencabinet')
+switchoff('headphones')
+putin('radio', 'open')
+find('computer')
+find('headphones')
+grab('soap')
+find('speaker')
+switchoff('speakers')
+switchoff('tv')
+walk('kitchen')
+open('open')
+switchoff('radio')
+close('radio')
+find('mic')
+find('radio')
+
+--------------------------
+
+
+bring pillow to the sofa:
+
+grab('pillow')
+grab('remotecontrol')
+walk('kitchen')
+switchoff('pillow')
+open('pillow')
+open('sofa')
+putin('pillow', 'pillow')
+switchoff('sofa')
+walk('sofa')
+close('pillow')
+putin('remotecontrol', 'sofa')
+find('pillow')
+find('remotecontrol')
+close('sofa')
+putin('pillow', 'sofa')
+find('sofa')
+
+--------------------------
+
+
+open window:
+
+walk('kitchen')
+close('window')
+find('light')
+open('window')
+walk('window')
+grab('window')
+find('window')
+find('book', 'bookshelf')
+
+--------------------------
+
+
+cut apple:
+
+open('bowl')
+grab('skin')
+find('core')
+open('fridge')
+putin('apple', 'apple')
+close('kitchencabinet')
+putin('apple', 'bowl')
+grab('flesh')
+open('cuttingboard')
+find('skin')
+putin('smallpieces', 'bowl')
+get('apple', 'hands')
+grab('fruit')
+find('flesh')
+find('peel')
+open('kitchencabinet')
+grab('apple')
+find('kitchencabinet')
+find('fridge')
+find('smallpieces')
+grab('smallpieces')
+find('fruit')
+putin('apple', 'kitchencabinet')
+grab('peel')
+find('cuttingboard')
+find('apple')
+grab('core')
+walk('kitchen')
+close('fridge')
+putin('apple', 'cuttingboard')
+putin('apple', 'fridge')
+close('bowl')
+grab('stem')
+find('bowl')
+find('stem')
+
+--------------------------
+
+
+refrigerate the salmon:
+
+find('icecream')
+open('fridge')
+grab('salmon')
+find('freezer')
+putin('icecream', 'freezer')
+putin('salmon', 'fridge')
+find('salmon')
+putin('salmon', 'freezer')
+grab('freezer')
+find('refrigerator')
+open('salmon')
+find('fridge')
+switchoff('freezer')
+switchoff('salmon')
+switchon('freezer')
+close('refrigerator')
+open('freezer')
+putin('freezer', 'freezer')
+close('freezer')
+putin('salmon', 'refrigerator')
+switchoff('fridge')
+walk('kitchen')
+grab('icecream')
+switchoff('refrigerator')
+switchon('refrigerator')
+open('refrigerator')
+
+--------------------------
+
+
+turn off the table lamp:
+
+switchoff('tablelamp')
+walk('kitchen')
+find('tablelamp')
+
+--------------------------
+
+
+get some coffee from the coffee maker to the coffeetable:
+
+find('coffee pot')
+switchoff('coffee pot')
+grab('coffee')
+get('coffee')
+find('cup')
+grab('beans')
+putin('coffee_maker', 'table')
+find('coffee_maker')
+putin('coffeepot', 'coffeetable')
+find('coffee machine')
+switchoff('coffee')
+switchoff('coffeemaker')
+putin('beans', 'coffee table')
+find('coffeepot')
+open('coffeepot')
+putin('cup', 'cup')
+find('coffee')
+open('coffeemaker')
+switchoff('coffee table')
+find('coffee table')
+getsomecoffeefromthecoffee_makertothecoffeetable()
+get_some_coffee_from_the_coffee_pot_to_the_coffeetable()
+grab('table')
+switchoff('coffee machine')
+grab('coffee pot')
+switchoff('coffee-maker')
+get('table')
+open('kitchencabinet')
+switchoff('coffee maker')
+walk('coffee table')
+find('coffeemaker')
+grab('coffee maker')
+putin('coffee', 'coffee_maker')
+get('sugar')
+find('coffee maker')
+find('beans')
+find('coffee-pot')
+open('coffeetable')
+get('coffee', 'table')
+find('coffeetable')
+grab('coffee table')
+get('cup')
+walk('kitchen')
+putin('coffee', 'coffee table')
+switchoff('coffee_maker')
+open('coffee table')
+putin('coffee-pot', 'kitchencabinet')
+switchoff('cup')
+find('coffee-table')
+get('water')
+find('coffee-maker')
+switchoff('coffee-table')
+grab('cup')
+
+--------------------------
+
+
+put the soap in the bathroomcabinet:
+
+switchoff('bathroomcabinet')
+walk('kitchen')
+find('soap')
+find('bathroomcabinet')
+grab('soap')
+walk('bathroom')
+close('soap')
+switchoff('soap')
+putin('soap', 'bathroomcabinet')
+close('bathroomcabinet')
+putin('soap', 'soap')
+open('bathroomcabinet')
+
+--------------------------
+
+
+wash mug:
+
+grab('mug')
+find('dishwashingliquid')
+switchoff('faucet')
+find('faucet')
+putin('mug', 'sink')
+find('washingsponge')
+putin 'washingsponge', 'sink'
+find('sink')
+grab('dishwashingliquid')
+putin 'washingsponge', 'washingsponge'
+switchon('faucet')
+wputin ('washingsponge', 'sink')
+putin('dishwashingliquid', 'sink')
+grab('washingsponge')
+putin('washingsponge', 'sink')
+putin ('washingsponge', 'sink')
+walk('kitchen')
+grab 'washingsponge'
+find('mug')
+putin (washingsponge, 'sink')
+wash_mug()
+putin ( washingsponge , sink)
+putin ( 'washingsponge', 'sink')
+
+--------------------------
+

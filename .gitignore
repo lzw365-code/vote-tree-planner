@@ -1,0 +1,7 @@
+**/__pycache__
+**/.DS_Store
+virtualhome/virtualhome/simulation/unity_simulator/macos_exec.zip
+virtualhome/virtualhome/simulation/unity_simulator/macos_exec.v2.3.0.app/*
+virtualhome/virtualhome/simulation/unity_simulator/Output/
+results/
+port_*
